@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A220DE3421B4F916008B9605 /* LKFloatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A220DE3321B4F916008B9605 /* LKFloatListViewController.m */; };
+		A220DE3721B4FA5F008B9605 /* LKFloatListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A220DE3621B4FA5F008B9605 /* LKFloatListView.m */; };
+		A220DE3A21B4FC1B008B9605 /* LKFloatListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A220DE3921B4FC1B008B9605 /* LKFloatListItem.m */; };
+		A26130E521AFD88000C5AA36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26130E421AFD88000C5AA36 /* AppDelegate.m */; };
+		A26130EB21AFD88000C5AA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26130E921AFD88000C5AA36 /* Main.storyboard */; };
+		A26130ED21AFD88100C5AA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26130EC21AFD88100C5AA36 /* Assets.xcassets */; };
+		A26130F021AFD88100C5AA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26130EE21AFD88100C5AA36 /* LaunchScreen.storyboard */; };
+		A26130F321AFD88100C5AA36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26130F221AFD88100C5AA36 /* main.m */; };
+		A26130FD21AFD88100C5AA36 /* FloatingListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26130FC21AFD88100C5AA36 /* FloatingListViewTests.m */; };
+		A261310821AFD88100C5AA36 /* FloatingListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A261310721AFD88100C5AA36 /* FloatingListViewUITests.m */; };
+		A261311721AFDC1100C5AA36 /* LKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A261311621AFDC1100C5AA36 /* LKMainViewController.m */; };
+		A261311A21AFDC7300C5AA36 /* LKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A261311921AFDC7300C5AA36 /* LKBaseViewController.m */; };
+		A261312121AFE0B200C5AA36 /* UIImage+RenderingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A261312021AFE0B200C5AA36 /* UIImage+RenderingImage.m */; };
+		B4C523CC395D939C37BDCF16 /* libPods-FloatingListView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 461B06F469A5B53EB87F1382 /* libPods-FloatingListView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26130F921AFD88100C5AA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26130D821AFD88000C5AA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26130DF21AFD88000C5AA36;
+			remoteInfo = FloatingListView;
+		};
+		A261310421AFD88100C5AA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26130D821AFD88000C5AA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26130DF21AFD88000C5AA36;
+			remoteInfo = FloatingListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CB9946AAE68E35C82283AD5 /* Pods-FloatingListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingListView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingListView/Pods-FloatingListView.debug.xcconfig"; sourceTree = "<group>"; };
+		461B06F469A5B53EB87F1382 /* libPods-FloatingListView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FloatingListView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220DE3221B4F916008B9605 /* LKFloatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKFloatListViewController.h; sourceTree = "<group>"; };
+		A220DE3321B4F916008B9605 /* LKFloatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKFloatListViewController.m; sourceTree = "<group>"; };
+		A220DE3521B4FA5F008B9605 /* LKFloatListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKFloatListView.h; sourceTree = "<group>"; };
+		A220DE3621B4FA5F008B9605 /* LKFloatListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKFloatListView.m; sourceTree = "<group>"; };
+		A220DE3821B4FC1B008B9605 /* LKFloatListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKFloatListItem.h; sourceTree = "<group>"; };
+		A220DE3921B4FC1B008B9605 /* LKFloatListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKFloatListItem.m; sourceTree = "<group>"; };
+		A26130E021AFD88000C5AA36 /* FloatingListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26130E321AFD88000C5AA36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A26130E421AFD88000C5AA36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A26130EA21AFD88000C5AA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26130EC21AFD88100C5AA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26130EF21AFD88100C5AA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26130F121AFD88100C5AA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26130F221AFD88100C5AA36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A26130F821AFD88100C5AA36 /* FloatingListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26130FC21AFD88100C5AA36 /* FloatingListViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingListViewTests.m; sourceTree = "<group>"; };
+		A26130FE21AFD88100C5AA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A261310321AFD88100C5AA36 /* FloatingListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A261310721AFD88100C5AA36 /* FloatingListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingListViewUITests.m; sourceTree = "<group>"; };
+		A261310921AFD88100C5AA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A261311521AFDC1100C5AA36 /* LKMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKMainViewController.h; sourceTree = "<group>"; };
+		A261311621AFDC1100C5AA36 /* LKMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKMainViewController.m; sourceTree = "<group>"; };
+		A261311821AFDC7300C5AA36 /* LKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKBaseViewController.h; sourceTree = "<group>"; };
+		A261311921AFDC7300C5AA36 /* LKBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKBaseViewController.m; sourceTree = "<group>"; };
+		A261311F21AFE0B200C5AA36 /* UIImage+RenderingImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RenderingImage.h"; sourceTree = "<group>"; };
+		A261312021AFE0B200C5AA36 /* UIImage+RenderingImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RenderingImage.m"; sourceTree = "<group>"; };
+		A261312321AFE1AD00C5AA36 /* LKConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKConst.h; sourceTree = "<group>"; };
+		FAA714F2EC4DB6A5D4A1639A /* Pods-FloatingListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingListView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingListView/Pods-FloatingListView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26130DD21AFD88000C5AA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C523CC395D939C37BDCF16 /* libPods-FloatingListView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26130F521AFD88100C5AA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A261310021AFD88100C5AA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599430A69C515969A9955778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				461B06F469A5B53EB87F1382 /* libPods-FloatingListView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A220DE3121B4F8F2008B9605 /* FloatView */ = {
+			isa = PBXGroup;
+			children = (
+				A220DE3221B4F916008B9605 /* LKFloatListViewController.h */,
+				A220DE3321B4F916008B9605 /* LKFloatListViewController.m */,
+				A220DE3521B4FA5F008B9605 /* LKFloatListView.h */,
+				A220DE3621B4FA5F008B9605 /* LKFloatListView.m */,
+				A220DE3821B4FC1B008B9605 /* LKFloatListItem.h */,
+				A220DE3921B4FC1B008B9605 /* LKFloatListItem.m */,
+			);
+			path = FloatView;
+			sourceTree = "<group>";
+		};
+		A26130D721AFD88000C5AA36 = {
+			isa = PBXGroup;
+			children = (
+				A26130E221AFD88000C5AA36 /* FloatingListView */,
+				A26130FB21AFD88100C5AA36 /* FloatingListViewTests */,
+				A261310621AFD88100C5AA36 /* FloatingListViewUITests */,
+				A26130E121AFD88000C5AA36 /* Products */,
+				B27493FC4E2329AF6BDA9223 /* Pods */,
+				599430A69C515969A9955778 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A26130E121AFD88000C5AA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26130E021AFD88000C5AA36 /* FloatingListView.app */,
+				A26130F821AFD88100C5AA36 /* FloatingListViewTests.xctest */,
+				A261310321AFD88100C5AA36 /* FloatingListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26130E221AFD88000C5AA36 /* FloatingListView */ = {
+			isa = PBXGroup;
+			children = (
+				A220DE3121B4F8F2008B9605 /* FloatView */,
+				A261312221AFE16E00C5AA36 /* Const */,
+				A261311B21AFE07800C5AA36 /* Lib */,
+				A26130E321AFD88000C5AA36 /* AppDelegate.h */,
+				A26130E421AFD88000C5AA36 /* AppDelegate.m */,
+				A26130E921AFD88000C5AA36 /* Main.storyboard */,
+				A26130EC21AFD88100C5AA36 /* Assets.xcassets */,
+				A26130EE21AFD88100C5AA36 /* LaunchScreen.storyboard */,
+				A26130F121AFD88100C5AA36 /* Info.plist */,
+				A26130F221AFD88100C5AA36 /* main.m */,
+				A261311521AFDC1100C5AA36 /* LKMainViewController.h */,
+				A261311621AFDC1100C5AA36 /* LKMainViewController.m */,
+				A261311821AFDC7300C5AA36 /* LKBaseViewController.h */,
+				A261311921AFDC7300C5AA36 /* LKBaseViewController.m */,
+			);
+			path = FloatingListView;
+			sourceTree = "<group>";
+		};
+		A26130FB21AFD88100C5AA36 /* FloatingListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A26130FC21AFD88100C5AA36 /* FloatingListViewTests.m */,
+				A26130FE21AFD88100C5AA36 /* Info.plist */,
+			);
+			path = FloatingListViewTests;
+			sourceTree = "<group>";
+		};
+		A261310621AFD88100C5AA36 /* FloatingListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A261310721AFD88100C5AA36 /* FloatingListViewUITests.m */,
+				A261310921AFD88100C5AA36 /* Info.plist */,
+			);
+			path = FloatingListViewUITests;
+			sourceTree = "<group>";
+		};
+		A261311B21AFE07800C5AA36 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A261311F21AFE0B200C5AA36 /* UIImage+RenderingImage.h */,
+				A261312021AFE0B200C5AA36 /* UIImage+RenderingImage.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A261312221AFE16E00C5AA36 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				A261312321AFE1AD00C5AA36 /* LKConst.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		B27493FC4E2329AF6BDA9223 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CB9946AAE68E35C82283AD5 /* Pods-FloatingListView.debug.xcconfig */,
+				FAA714F2EC4DB6A5D4A1639A /* Pods-FloatingListView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26130DF21AFD88000C5AA36 /* FloatingListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A261310C21AFD88100C5AA36 /* Build configuration list for PBXNativeTarget "FloatingListView" */;
+			buildPhases = (
+				0C21788595D977418A6DFFAC /* [CP] Check Pods Manifest.lock */,
+				A26130DC21AFD88000C5AA36 /* Sources */,
+				A26130DD21AFD88000C5AA36 /* Frameworks */,
+				A26130DE21AFD88000C5AA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingListView;
+			productName = FloatingListView;
+			productReference = A26130E021AFD88000C5AA36 /* FloatingListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26130F721AFD88100C5AA36 /* FloatingListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A261310F21AFD88100C5AA36 /* Build configuration list for PBXNativeTarget "FloatingListViewTests" */;
+			buildPhases = (
+				A26130F421AFD88100C5AA36 /* Sources */,
+				A26130F521AFD88100C5AA36 /* Frameworks */,
+				A26130F621AFD88100C5AA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26130FA21AFD88100C5AA36 /* PBXTargetDependency */,
+			);
+			name = FloatingListViewTests;
+			productName = FloatingListViewTests;
+			productReference = A26130F821AFD88100C5AA36 /* FloatingListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A261310221AFD88100C5AA36 /* FloatingListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A261311221AFD88100C5AA36 /* Build configuration list for PBXNativeTarget "FloatingListViewUITests" */;
+			buildPhases = (
+				A26130FF21AFD88100C5AA36 /* Sources */,
+				A261310021AFD88100C5AA36 /* Frameworks */,
+				A261310121AFD88100C5AA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A261310521AFD88100C5AA36 /* PBXTargetDependency */,
+			);
+			name = FloatingListViewUITests;
+			productName = FloatingListViewUITests;
+			productReference = A261310321AFD88100C5AA36 /* FloatingListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26130D821AFD88000C5AA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李凯";
+				TargetAttributes = {
+					A26130DF21AFD88000C5AA36 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A26130F721AFD88100C5AA36 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A26130DF21AFD88000C5AA36;
+					};
+					A261310221AFD88100C5AA36 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A26130DF21AFD88000C5AA36;
+					};
+				};
+			};
+			buildConfigurationList = A26130DB21AFD88000C5AA36 /* Build configuration list for PBXProject "FloatingListView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26130D721AFD88000C5AA36;
+			productRefGroup = A26130E121AFD88000C5AA36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26130DF21AFD88000C5AA36 /* FloatingListView */,
+				A26130F721AFD88100C5AA36 /* FloatingListViewTests */,
+				A261310221AFD88100C5AA36 /* FloatingListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26130DE21AFD88000C5AA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26130F021AFD88100C5AA36 /* LaunchScreen.storyboard in Resources */,
+				A26130ED21AFD88100C5AA36 /* Assets.xcassets in Resources */,
+				A26130EB21AFD88000C5AA36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26130F621AFD88100C5AA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A261310121AFD88100C5AA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C21788595D977418A6DFFAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FloatingListView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26130DC21AFD88000C5AA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220DE3421B4F916008B9605 /* LKFloatListViewController.m in Sources */,
+				A261311721AFDC1100C5AA36 /* LKMainViewController.m in Sources */,
+				A26130F321AFD88100C5AA36 /* main.m in Sources */,
+				A220DE3721B4FA5F008B9605 /* LKFloatListView.m in Sources */,
+				A220DE3A21B4FC1B008B9605 /* LKFloatListItem.m in Sources */,
+				A261311A21AFDC7300C5AA36 /* LKBaseViewController.m in Sources */,
+				A261312121AFE0B200C5AA36 /* UIImage+RenderingImage.m in Sources */,
+				A26130E521AFD88000C5AA36 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26130F421AFD88100C5AA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26130FD21AFD88100C5AA36 /* FloatingListViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26130FF21AFD88100C5AA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A261310821AFD88100C5AA36 /* FloatingListViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26130FA21AFD88100C5AA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26130DF21AFD88000C5AA36 /* FloatingListView */;
+			targetProxy = A26130F921AFD88100C5AA36 /* PBXContainerItemProxy */;
+		};
+		A261310521AFD88100C5AA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26130DF21AFD88000C5AA36 /* FloatingListView */;
+			targetProxy = A261310421AFD88100C5AA36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A26130E921AFD88000C5AA36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26130EA21AFD88000C5AA36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26130EE21AFD88100C5AA36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26130EF21AFD88100C5AA36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A261310A21AFD88100C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A261310B21AFD88100C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A261310D21AFD88100C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB9946AAE68E35C82283AD5 /* Pods-FloatingListView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatingListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.FloatingListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A261310E21AFD88100C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA714F2EC4DB6A5D4A1639A /* Pods-FloatingListView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatingListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.FloatingListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A261311021AFD88100C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatingListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.FloatingListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingListView.app/FloatingListView";
+			};
+			name = Debug;
+		};
+		A261311121AFD88100C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatingListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.FloatingListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingListView.app/FloatingListView";
+			};
+			name = Release;
+		};
+		A261311321AFD88100C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatingListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.FloatingListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloatingListView;
+			};
+			name = Debug;
+		};
+		A261311421AFD88100C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatingListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daf.FloatingListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloatingListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26130DB21AFD88000C5AA36 /* Build configuration list for PBXProject "FloatingListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A261310A21AFD88100C5AA36 /* Debug */,
+				A261310B21AFD88100C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A261310C21AFD88100C5AA36 /* Build configuration list for PBXNativeTarget "FloatingListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A261310D21AFD88100C5AA36 /* Debug */,
+				A261310E21AFD88100C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A261310F21AFD88100C5AA36 /* Build configuration list for PBXNativeTarget "FloatingListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A261311021AFD88100C5AA36 /* Debug */,
+				A261311121AFD88100C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A261311221AFD88100C5AA36 /* Build configuration list for PBXNativeTarget "FloatingListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A261311321AFD88100C5AA36 /* Debug */,
+				A261311421AFD88100C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26130D821AFD88000C5AA36 /* Project object */;
+}
