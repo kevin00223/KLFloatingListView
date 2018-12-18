@@ -11,8 +11,8 @@ To your podfile add:
 
 ## Example Usage
 ```
-#import "LKFloatListItem.h"
-#import "LKFloatListViewController.h"
+#import "KLFloatListItem.h"
+#import "KLFloatListViewController.h"
 ```
 ```
 - (void)initNavigationBar {
@@ -20,17 +20,17 @@ To your podfile add:
 }
 
 - (void)rightBarButtonItemClicked: (UIBarButtonItem *)sender {
-    LKFloatListItem *itemA = [LKFloatListItem itemWithImageName:@"ic_add_friend" text:@"添加好友"];
-    LKFloatListItem *itemB = [LKFloatListItem itemWithImageName:@"ic_add_group" text:@"添加群组"];
+    KLFloatListItem *itemA = [KLFloatListItem itemWithImageName:@"ic_add_friend" text:@"添加好友"];
+    KLFloatListItem *itemB = [KLFloatListItem itemWithImageName:@"ic_add_group" text:@"添加群组"];
     
-    LKFloatListViewController *vc = [[LKFloatListViewController alloc]init];
+    KLFloatListViewController *vc = [[KLFloatListViewController alloc]init];
     vc.items = @[itemA, itemB];
-    [vc setLocationWithPoint:CGPointMake(10, 70) method:LKFloatListViewLocateMethodRightTop];
+    [vc setLocationWithPoint:CGPointMake(10, 70) method:KLFloatListViewLocateMethodRightTop];
     vc.delegate = self;
     [self presentViewController:vc animated:NO completion:nil];
 }
 
-- (void)floatListViewController:(LKFloatListViewController *)floatListViewController didSelectItemAtIndex:(NSInteger)index {
+- (void)floatListViewController:(KLFloatListViewController *)floatListViewController didSelectItemAtIndex:(NSInteger)index {
     switch (index) {
         case 0:
             NSLog(@"跳转到添加好友页面");
@@ -44,4 +44,12 @@ To your podfile add:
 }
 ```
 
+## Requirements
+iOS 9.0+
 
+## Contact
+Find me via id: badassme on WeChat.
+Pull requests are always welcome.
+
+## License
+KLFloatingListView is pushblied under MIT license. See the LICENSE file for more.
